@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<title>Be Green </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 750px) {
+    #background-video {  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1; }
+}
+    .bgimg-1 {
+  background-position:center;
+  background: url("https://cdn.videvo.net/videvo_files/video/free/2021-06/large_watermarked/210608_02_Drone%20Broadway_4k_033_preview.mp4") no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"> Be Green </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About Company </a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Board of Directors </a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"></i> Our Clients </a>
+      <a href="#Services" class="w3-bar-item w3-button"> <i class="fa fa-braille"></i>    </i>Our Services</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar" style="margin-top:46px">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About Company </a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Board of Directors </a>
+  <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">Our Services</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Our Clients</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <video id="background-video" autoplay loop muted poster="https://cdn.videvo.net/videvo_files/video/free/2021-06/large_watermarked/210608_02_Drone%20Broadway_4k_033_preview.mp4">
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2021-06/large_watermarked/210608_02_Drone%20Broadway_4k_033_preview.mp4" type="video/mp4">
+      </video>
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">RENEWABLE ENERGY
+    </span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <span class="w3-large"> WELCOME TO SOLAR
+        ENERGY </span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">More .. </a></p>
+  </div> 
+
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT BE GREEN </h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-eye w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Vision </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-flag-o w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Mission</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Our Strategy</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="Services">
+    <h3 class="w3-center">Our Services </h3>
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="https://images.unsplash.com/photo-1592833159091-10e59577d32f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fHNvbGFyJTIwZW5lcmd5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Solar Energy</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="https://images.unsplash.com/photo-1590944667245-8ad4c2abf8ae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxzb2xhciUyMGVuZXJneXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Power </b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container">
+          <img src="https://images.unsplash.com/photo-1487875961445-47a00398c267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHNvbGFyJTIwZW5lcmd5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Wind Energy </b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+      </div>
+ 
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center"> Board of Directors</h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images.unsplash.com/photo-1559418162-0d309d8d10a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGNlb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGNlb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Anja Doe</h3>
+          <p class="w3-opacity">Business Development Manager</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images.unsplash.com/photo-1629272039203-7d76fdaf1324?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fGNlb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Lead Electrical</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2VvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Dan Star</h3>
+          <p class="w3-opacity">Solar Energy Engineer</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <h3 class="w3-center">FACTS OF SOLAR ENERGY </h3> 
+
+  <div class="w3-quarter">
+    <span class="w3-xxlarge" >14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge" >55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge" >100+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">12 </span>
+    <br>Offices Worldwide
+
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR Clients </h3>
+  <p class="w3-center w3-large">Since our founding in 2006, Be Green has quickly become well-known as a trusted partner of many of the regions key public and private organisations. We have worked closely and successfully with government departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations. Here, you can find a selection of the many client organisations we already work closely alongside.</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2020/08/11/2225081-339365774.png?itok=2rQF5Jnl" width="400" height="250" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="نيوم ">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="http://athabatnetwork.com/static/images/e927b5db80650c8954fb4dfe548b03741560775595.png" width="400" height="250"style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="وزارة الزراعه ">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data:image/png;base64,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" width="400" height="250" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ارامكو ">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data:image/png;base64,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" width="400" height="250" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="سابك ">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Latest News -->
+<div class="w3-row-padding w3-dark-grey" id="plans" >
+    <div class="w3-center w3-padding-64">
+      <h3>Latest News </h3>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <li class="w3-padding-16">         <img src="https://images.unsplash.com/photo-1624062166046-fc8a8e0e9c9a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA0fHxzb2xhciUyMGVuZXJneXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" style="width:100%">
+  
+          <li class="w3-padding-16">
+            <span class="w3-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </span>
+            <button class="w3-button w3-white w3-padding"> Read more </button>
+          </li>
+        </ul>
+      </div>
+
+    
+    <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+            <li class="w3-padding-16">         <img src="https://images.unsplash.com/photo-1548457979-32fadf2f3c0d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMyfHxzb2xhciUyMGVuZXJneXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" style="width:100%">  
+          <li class="w3-padding-16">
+            <span class="w3-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </span>
+            <button class="w3-button w3-white w3-padding" > Read more </button>
+          </li>
+        </ul>
+      </div>
+
+    
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+            <li class="w3-padding-16">         <img src="https://images.unsplash.com/photo-1605688688509-2d0af3946fc5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzfHxzb2xhciUyMGVuZXJneXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" style="width:100%">  
+          <li class="w3-padding-16">
+            <span class="w3-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </span>
+            <button class="w3-button w3-white w3-padding"> Read more </button>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT US </h3>
+
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Saudi Arabia, Riyadh </p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="https://api.mapbox.com/styles/v1/mapbox/light-v9/static/pin-s+f00(30.055867,51.408365)/30.0558434,51.4082343,15,0,0/640x480?access_token=pk.eyJ1Ijoibmlja2ZpdHoiLCJhIjoiY2p3d2g3N2F5MDZ4azQwcG12dWticDB0diJ9.qnQV5QgYN_eDwg4uUdbO6Q" alt="Pripyat Amusement Park" class="static-map" class="w3-image w3-greyscale-min" style="width:100%">
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-white w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
